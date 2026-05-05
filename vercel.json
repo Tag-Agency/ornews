@@ -12,10 +12,6 @@
         {
           "key": "X-Robots-Tag",
           "value": "index, follow, all"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "no-cache, no-store, must-revalidate"
         }
       ]
     }
