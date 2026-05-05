@@ -1,7 +1,6 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "outputDirectory": ".",
   "headers": [
     {
       "source": "/(.*)",
@@ -11,8 +10,12 @@
           "value": "*"
         },
         {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
           "key": "Cache-Control",
-          "value": "no-store, max-age=0"
+          "value": "public, s-maxage=1, stale-while-revalidate=59"
         }
       ]
     }
