@@ -1,13 +1,7 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "framework": null,
-  "installCommand": null,
-  "buildCommand": null,
   "outputDirectory": ".",
-  "github": {
-    "silent": true
-  },
   "headers": [
     {
       "source": "/(.*)",
@@ -15,6 +9,10 @@
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
         }
       ]
     }
